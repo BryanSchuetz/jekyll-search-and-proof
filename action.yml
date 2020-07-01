@@ -1,6 +1,6 @@
 
-name: jekyll-deploy-gh-pages
-description: 'Deploying your Jekyll repo back to the gh-pages branch of the same repository'
+name: jekyll-search-and-proof
+description: 'Updating your Algolia index and proofing the site'
 branding: 
   icon: 'upload-cloud'
   color: 'blue'

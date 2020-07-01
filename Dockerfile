@@ -5,12 +5,13 @@ ENV LC_ALL C.UTF-8
 ENV LANG en_US.UTF-8	
 ENV LANGUAGE en_US.UTF-8	
 
-LABEL "com.github.actions.name"="Build & Deploy to GitHub Pages"	
-LABEL "com.github.actions.description"="Builds & deploys Jekyll to gh-pages branch of the same repository. "	
+LABEL "com.github.actions.name"="Update Algolia Index and Run Proofer"	
+LABEL "com.github.actions.description"="Updates your Algolia index and runs the html-proofer library on the generated site"	
 LABEL "com.github.actions.icon"="globe"	
 LABEL "com.github.actions.color"="green"	
 
-LABEL "repository"="http://github.com/BryanSchuetz/jekyll-deploy-gh-pages"	
+LABEL "repository"="http://github.com/BryanSchuetz/jekyll-search-and-proof"	
+
 
 ADD entrypoint.sh /entrypoint.sh
 
