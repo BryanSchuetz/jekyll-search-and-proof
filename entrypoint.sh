@@ -6,5 +6,5 @@ bundle exec jekyll build
 echo '👍 Proofing the Site'
 bundle exec htmlproofer build
 echo '👍 Indexing the Site'
-bundle exec jekyll algolia
+bundle exec jekyll algolia --config ${YML_CONFIG}
 echo '👍 GREAT SUCCESS!'
